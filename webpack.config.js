@@ -67,10 +67,10 @@ module.exports = {
         ],
       },
       {
-        test: /\.woff2?$/i,
+        test: /\.(eot|svg|ttf|woff|woff2)$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'fonts/[name][ext]',
+          filename: 'font/[name][ext]',
         },
       },
       {
